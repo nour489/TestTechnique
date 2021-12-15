@@ -1,0 +1,9 @@
+sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string,telephone:string,category:integer,Workday:integer,contractType:string,contractStartDate:date,contractEndDate:date
+
+sequelize model:generate --name Entreprise --attributes name:string,address:string,email:string,telephone:string,GroupId:integer
+
+sequelize model:generate --name Group --attributes name:string,address:string,email:string,telephone:string
+
+sequelize model:generate --name Workday --attributes name:string,part1:string,email:string,telephone:string
+
+sequelize db:migrate:undo:all

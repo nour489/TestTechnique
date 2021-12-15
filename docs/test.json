@@ -1,0 +1,51 @@
+{
+    "pendingWorkdays": [
+        {
+            "generatedBy": {
+                "id": 5,
+                "email": "aaaaa"
+            },
+            "plannings": [
+                {
+                    "weekNumber": 48,
+                    "wpName": "soir",
+                    "UserId": 25
+                },
+                {
+                    "weekNumber": 48,
+                    "wpName": "soir",
+                    "UserId": 26
+                },
+                {
+                    "weekNumber": 49,
+                    "wpName": "matin",
+                    "UserId": 27
+                }
+            ]
+        },
+        {
+            "generatedBy": {
+                "id": 5,
+                "email": "aaaaa"
+            },
+            "plannings": [
+                {
+                    "weekNumber": 30,
+                    "wpName": "soir",
+                    "UserId": 12,
+                    "workdays": []
+                },
+                {
+                    "weekNumber": 31,
+                    "wpName": "soir",
+                    "UserId": 15
+                },
+                {
+                    "weekNumber": 32,
+                    "wpName": "matin",
+                    "UserId": 15
+                }
+            ]
+        }
+    ]
+}
