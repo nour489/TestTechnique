@@ -31,7 +31,17 @@ Paramaters :
 | `523`  | operation error, redoing the action with different parameters may succeed (it may be temporary error)               |
 | `524`  | operation error but it can be overrided, headers.force=true required to override               |
 
+
+| HTTP METHODS | COLOR                                                                                                |
+|--------|--------------------------------------------------------------------------------------------------------|
+| POST  | &#x1F4D8;|
+| GET  | &#x1F4D7;|
+| PUT  | &#x1F4D9;|
+| DELETE  | &#x1F534;|
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # &#x1F4D8; Register
 
 ``` POST
