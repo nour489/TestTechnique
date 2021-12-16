@@ -102,6 +102,4 @@ for (const file of files) {
 }
 
 
-require('./functions')
 require('./cron')
-// require('./microservices/subscriber')

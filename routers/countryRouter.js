@@ -1,17 +1,15 @@
 const router = require('express').Router()
+const authMiddleware=require('../middleware/auth')
+const countryController=require('../controllers/countryController')
 
 
-
-
-router.post('/', async (req, res) => {
+router.post('/',authMiddleware, async (req, res) => {
   try {
-    const newCountry = new Models.Country(req.body)
-    const savedCountry = await newCountry.save()
-    res.json(savedCountry)
-  } catch (err) {
-    console.error(err)
-    res.status(500).send()
-  }
+countryController.addCountry(req,res,next)
+} catch (err) {
+  res.status(500).send()
+
+}
 })
 
 
