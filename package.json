@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index",
     "debug": "node-debug index",
+    "push":"git add . && git commit -m 'update' && git push",
     "dev": "nodemon -r dotenv/config index dotenv_config_path=.env.nodemon",
     "doc": "md2html docs/doc.md >docs/doc.html && cat docs/doc.css >> docs/doc.html && cp docs/doc.md README.md"
   },

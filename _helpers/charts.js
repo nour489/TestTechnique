@@ -10,10 +10,7 @@ builder.createChart = async function(type, labels, data, title, colors, networkL
 
   let datasets = [];
   for (const dataset in data) {
-    // console.log(dataset)
-    //   console.log(labels[dataset])
-    //     console.log(data[dataset])
-    //   console.log("-----label(-----)")
+
     datasets.push({
       label: labels[dataset],
       data: data[dataset],

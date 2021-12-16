@@ -24,13 +24,12 @@ Paramaters :
 | `422`  | request params or body are malformed, reload this doc for any changes of attributes names              |
 | `423`  | wrong password              |
 | `424`  | entry duplication               |
-| `461`  | a unique constraint error          
-
-| `445`  |You can't accept a replacement without selecting a replacer                                                                |
-| `462`  | not allowed, check your allowed features                                                                              |
-| `522`  | database fail, you should contact backend developer                                                    |
-| `523`  | operation error, redoing the action with different parameters may succeed (it may be temporary error)  |
-| `524`  | operation error but it can be overrided, headers.force=true required to override |
+| `461`  | a unique constraint error               |
+| `445`  |You can't accept a replacement without selecting a replacer               |
+| `462`  | not allowed, check your allowed features               |
+| `522`  | database fail, you should contact backend developer               |
+| `523`  | operation error, redoing the action with different parameters may succeed (it may be temporary error)               |
+| `524`  | operation error but it can be overrided, headers.force=true required to override               |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # &#x1F4D8; Register
